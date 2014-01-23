@@ -1,0 +1,21 @@
+﻿.versalerHeader {
+    float:left;
+    font-size:24px;
+}
+
+.textBox {
+    float:left;
+    margin:5px;
+    clear:both;
+}
+
+.getUpper {
+    clear:both;
+    float:left;
+    margin:5px;
+}
+
+.result {
+    float:left;
+}
+

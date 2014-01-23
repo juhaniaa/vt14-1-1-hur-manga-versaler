@@ -21,7 +21,7 @@ namespace _1._1_Hur_manga_versaler
             {
                 var amount =_1_Hur_manga_versaler.Model.TextAnalyzer.GetNumberOfCapitals(TextBox.Text);
                 
-                Result.Text = amount.ToString();
+                Result.Text = amount.ToString() + " versaler";
                 TextBox.Enabled = false;
                 GetUpper.Text = "Rensa";
             }
@@ -29,6 +29,7 @@ namespace _1._1_Hur_manga_versaler
                 TextBox.Enabled = true;
                 TextBox.Text = "";
                 Result.Text = "";
+                GetUpper.Text = "Bestäm antalet versaler";
             }
         }
     }
